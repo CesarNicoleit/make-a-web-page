@@ -1,0 +1,473 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="project1.css">
+    <title> Nanodegree 00 </title>
+  </head>
+  <body>
+    <h1 class="title"> Notebook Nanodegree 00 </h1>
+    <nav class="index">
+      <h2> Index </h2>
+      <ol>
+        <li class="index-lesson"><a href="#lesson-1">The Basics of the Web and HTML</a>
+          <ul>
+            <li><a href="#lesson-1-1"> 1-1 How the Web Works </a></li>
+            <li><a href="#sub-1-1-1"> 1-1-1 Main Concepts of Internet</a></li>
+            <li><a href="#sub-1-1-2"> 1-1-2 Major Pieces of Internet</a></li>
+            <li><a href="#lesson-1-2"> 1-2 HTML - Hypertext Markup Language (the heart of the web)</a></li>
+            <li><a href="#lesson-1-3"> 1-3 Tags and Elements </a></li>
+            <li><a href="#lesson-1-4"> 1-4 Computers are Stupid </a></li>
+            <li><a href="#lesson-1-5"> 1-5 HTML Atributes </a></li>
+            <li><a href="#lesson-1-6"> 1-6 The Image Tag (img) </a></li>
+            <li><a href="#lesson-1-7"> 1-7 Whitespace </a></li>
+            <li><a href="#lesson-1-8"> 1-8 Inline Versus Block Elements</a></li>
+            <li><a href="#lesson-1-9"> 1-9 Container Elements </a></li>
+            <li><a href="#sub-1-9-1"> 1-9-1 Span and Div </a></li> 
+            <li><a href="#lesson-1-10"> 1-10 The Structure of an HTML Document </a></li>
+          </ul>
+        </li>
+        <li class="index-lesson"><a href="#lesson-2">Creating a Structured Document with HTML</a>
+          <ul>
+            <li><a href="#lesson-2-1">2-1 Developer Tools</a></li>
+            <li><a href="#lesson-2-2">2-2 Tree-like Structure</a></li>
+            <li><a href="#lesson-2-3">2-3 Indentations and Boxes</a></li>
+            <li><a href="#lesson-2-4">2-4 Text Editors</a></li>
+          </ul>
+        </li>
+        <li class="index-lesson"><a href="#lesson-3">Strucured Documents and CSS Style</a>
+          <ul>
+            <li><a href="#lesson-3-1">3-1 Strucured Documents</a></li>
+            <li><a href="#lesson-3-2">3-2 CSS - Cascading Style Sheets</a></li>
+            <li><a href="#lesson-3-3">3-3 Avoiding Repetition</a></li>
+            <li><a href="#lesson-3-4">3-4 HTML and CSS Validation</a></li>
+          </ul>
+        </li>
+      </ol>
+    </nav>
+    <div class="lesson">
+      <h2 id="lesson-1">1 The Basics of the Web an HTML</h2>
+      <article class="video" id="lesson-1-1">
+        <div class="video-title">
+          <h3>1-1 How The Web Works</h3>
+        </div>
+        <div class="video-content">
+          <div class="sub-title" id="sub-1-1-1">
+            <h4>1-1-1 Main concepts of Internet</h4>
+          </div>
+            <p>
+              HTML (main document type of the web)
+            </p>
+            <p>
+              The web
+            </p>
+            <p>
+              URLs (how we refer to the documents on the web)
+            </p>
+            <p>
+              HTTP (running protocol of the web)
+            </p>
+            <p>
+              Web Applications
+            </p>
+            <p>
+              The word wide web is a collection of HTML documents. <b>HTML</b> stands for <b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage.
+            </p>
+            <p>
+              HTML is the basis for almost every webpage.
+            </p>
+            <p>
+              All sorts of files can exist on line. HTML <em> glues</em> all together.
+            </p>
+            <p>
+              The links between the pages are called Hiperlinks (or just links).
+            </p>
+            <p>
+              The internet has something about 30 billion pages.
+            </p>
+          <div class="sub-title" id="sub-1-1-2">
+            <h4>1-1-2 Major Pieces of Internet</h4>
+          </div>
+            <p>
+              User
+            </p>
+            <p>
+              computer running a web browser
+            </p>
+            <p>
+              the internet
+            </p>
+            <p>
+              and servers
+            </p>
+            <p>
+              Our browser makes requests via the Internet to servers. These requests use a protocol called http and the servers respond with files that our browser displays. Some examples of browsers are Internet Explorer, Chrome, Firefox. A browser is a program thar runs on our computer to display files found on the web.
+            </p>
+            <p>
+              The servers are computers optimized for hosting and access files.
+            </p>
+            <p>
+              Http is a very simple protocol that our browser uses to communicate with the servers.
+            </p>
+        </div>
+      </article> 
+      <article class="video" id="lesson-1-2">
+        <div class="video-title">
+          <h3>1-2 HTML - Hypertext Markup Language (the heart of the web)</h3>
+        </div>
+        <div class="video-content">
+          <p>
+            HTML is made up of <em>text content</em>, which is what you see. It is made up of <em>markup</em>, which is what that content looks like or how it is arranged. It is made up of <em>references</em> to other documents, like images and videos, or any other files. And it can be made up of<em> link</em>s to other pages.
+          </p>
+          <p>
+            Plain text is plain text in HTML, for the most part. But if we want to make the text look different, we need to use something called markup, which is one of the other facets of HTML.
+          </p>
+        </div>
+      </article>
+      <article class="video" id="lesson-1-3">
+        <div class="video-title">
+          <h3>1-3 Tags and Elements</h3>
+        </div>
+        <div class="video-content">
+          <p>
+            HTML markup is made up of things called tags. The way a tag is structured: you have got, a less than symbol, the tag name, a greater than symbol, the tag contents, which can actually be other tags or it could just be text, another less than symbol, a slash, the name, and a greater than symbol.
+          </p>
+          <p>
+            The first one is the opening tag, the last one, with the slash, is the closing tag. The whole thing is an element.
+          </p>
+          <p>
+            <b> Bold tag </b> everything that is between these tags appears bold.
+          </p>
+          <p>
+            <em> emphasis tag </em> everything that is between these tags appears italic.
+          </p>
+          <p>
+            Html can be nested.
+          </p>
+        </div>
+      </article>
+      <article class="video" id="lesson-1-4">
+        <div class="video-title">
+          <h3>1-4 Computers are Stupid</h3>
+        </div>
+        <div class="video-content">
+          <p>
+            Computers only understand unambiguous commands, with a previous stablished syntax. Any typos or mistakes could generate catastrophic failure.
+          </p>
+        </div>
+      </article>
+      <article class="video" id="lesson-1-5">
+        <div class="video-title">
+          <h3>1-5 HTML Atributes</h3>
+        </div>
+        <div class="video-content">
+          <p>
+            Attribute is a property of an HTML element.
+          </p>
+          <p>
+            We still have our opening tag name and, and a closing tag but we have an attribute that have a name and that is equal a value. The value appears inside cotes that are inside the opening tag, after de equal sign.
+          </p>
+          <p>
+            Tags can have multiple attributes.
+          </p>
+          <p>
+            An example of a tag that uses an attribute is the anchor tag (a tag).
+          </p>
+          <p>
+            Anchors are for making links. We have the <b>a</b> of the opening <em>anchor tag</em> followed by <em>the name of the attribute</em> (<b>href</b>),<em> the equal sign</em> and<em> the value inside cotes</em>. The value in this case is an URL. After the opening tag with the attribute and the value, we have<em> the contents</em> and<em> the ending tag</em> with the slash and the a. The ending tag is the same as the ones of the elements without attributes. The content will be the only thing that will appear at the browser, and it will be a link to the URL put as the value. 
+          </p>
+        </div>
+      </article>
+      <article class="video" id="lesson-1-6">
+        <div class="video-title">
+          <h3>1-6 The Image Tag (img)</h3>
+        </div>
+        <div class="video-content">
+          <p>
+            The image tag (img) is for including images. It has the following structure. The opening IMG tag. This is an example of how the web service can serve all sorts of different types of content. It has an attribute called source, SRC equals the URL. This is the URL of the image to download. And then there is another attribute called alt. Which stands for alternate, and this is text that gets displayed when the image does not load. If our browser requested a URL that does not exist, this is the text that gets displayed, and it is also for blind people. 
+          </p>
+          <p>
+            Every tag that we have talked about so far has had a closing tag. Images do not. This is the entire tag. There is no content to an image. This is called a void tag.
+          </p>
+          <p>
+            A void tag has no content, and because it has no content, it does not need a closing tag.
+          </p>
+          <p>
+            Images just appear in line with text.
+          </p>
+          <p>
+            If you put the image inside a block element, it will appear under the previous element and above the next one. This behavior can be changed using structured HTML with CSS.
+          </p>
+          <div class="image-commented">
+            <div class=image>
+              <img src="images/vegetables.jpg" alt="vegetables face">
+            </div>
+            <div class="image-comment">
+              <p>
+                This text is beside the image using div tags and float CSS property. 
+              </p>
+            </div>
+          </div>
+          <footer>
+            Art made by Arthur Emidio Nicoleit, my son.
+          </footer> 
+        </div>
+      </article>
+      <article class="video" id="lesson-1-7">
+        <div class="video-title">
+          <h3>1-7 Whitespace</h3>
+        </div>
+        <div class="video-content">
+          <p>
+            When we enter text in the, in the editor, if we put text on multiple lines, when we render it in HTML it render all on a single line.
+          </p>
+          <p>
+            In HTML all whitespace, new lines, tabs, spaces all turn into a single space. To force our HTML to have multiple lines we can use another tag called the <b> br</b> tag.
+          </p>
+          <p>
+            Br stands fo break, and it is a <b>void tag</b>. And we put this after any lines that we want to appear on multiple lines. And we can even enter multiparticlebr tags if we want multiple line breaks.
+      article </p>
+          <p>
+            Another way of doing line breaks is to use the <b>p</b> tag. This stands for paragraph. This is not a void tag. So the p tag has content and because it is not a void tag, it has a opening tag, the content and the closing tag, and this will render as one paragraph.
+          </p>
+        </div>
+      </article>
+      <article class="video" id="lesson-1-8">
+        <div class="video-title">
+          <h3>1-8 Inline Versus Block</h3>
+        </div>
+        <div class="video-content">
+          <p>  
+            The <b>br</b> tag is what we call <em>inline</em>, and the <b>p</b> tag, is what we call <em>block</em>.
+          </p>
+          <p>
+            The br tag just end a line. 
+          </p>
+          <p>
+            The br tag just basically says the line ends here and the following will appear at the next line.
+          </p>
+          <p>
+            The p tag works differently. The p tag actually makes an invisible box. 
+     article  </p>
+          <p>
+            So instead of just rendering text, blank line, what this is actually rendering is an invisible box.
+          </p>
+          <p>
+            And that is what the p tag does. And this invisible box can have height, and it can have width, where inline elements are just text.
+          </p>
+          <p>
+            Inline and block elements have kind of a different behavior.
+          </p>
+          <p>
+            So far, all the elements we have learned other than p are inline elements.
+          </p>
+          <p>
+            <em><b> b, em, br, even img are inline elements</b></em>.
+          </p>
+          <p>
+            So far, the only block element we have learned is the p element.
+          </p>
+        </div>
+      </article>
+      <article class="video" id="lesson-1-9">
+        <div class="video-title">
+          <h3>1-9 Container Elements</h3>
+        </div>
+        <div class="video-content">
+          <p>  
+            Container Elements do nothing but contain stuff inside of them. These elements can be used to create web pages with complex structures.
+          </p>
+          <div class="sub-title" id="sub-1-9-1">
+            <h4>Span and Div</h4>
+          </div>
+          <p>
+            Span and div are both normal elements.
+          </p>
+          <p>
+            They can both have content.
+          </p>
+          <p>
+            And the only difference between these two is, span is inline, and div is block.
+          </p>
+          <p>
+            These elements do not do anything other than just contain their content. And there is a way to attach styles to them, to adjust different behaviors of how they display.
+          </p>
+          <p>
+            We will be using spans and divs a lot for controlling how text is laid out.
+          </p>
+          <p>
+            But the important thing to remember is that spans are inline and divs are block.
+          </p>
+        </div>
+      </article>
+      <article class="video" id="lesson-1-10">
+        <div class="video-title">
+          <h3>1-10 The structure of an HTML document</h3>
+        </div>
+        <div class="video-content">
+          <p>
+            Now, what we have been seeing before is just little markup.
+          </p>
+          <p>
+            But an actual complete HTML document has quite a bit more in it.
+          </p>
+          <p>
+            First we have the DOCTYPE; what kind of HTML. This used to be a lot more complex. But now that we are using HTML5, it has a nice clean simple doctype, which is just the string HTML. Very simple.
+          </p>
+          <p>
+            Then we have a tag. This is the basically the opening HTML tag and the closing HTML tag. This surrounds the entire rest of the document. That is all it does, is it surrounds the entire document.
+          </p>
+          <p>
+            Now we have other tag, the head. This part of the document has metadata and another random stuff. If we were to include JavaScript and CSS,  that would be included in the head section.
+          </p>
+          <p>
+            Now we also have the tittle tag, and this is the title of the page. This is what would appear in the top of your browser window, or in, in your browser tab, the content of the tittle tag.
+          </p>
+          <p>
+            Then we have the body tag, and the body tag is the actual contents of the document. And basically, we have been, we have been working just in the body tag in this sub. And for most of this course, we are really just going to be focusing on generating the content that fits between the body tags.
+          </p>
+          <p>
+            All this other stuff is important but it does not change very often and, it is pretty simple, but it is pretty important for it to be there. All of the interesting stuff though happens between the body tags. 
+          </p>
+          <p>
+            An HTML document has a head section and that is where we have our title, references to any CSS files, and Java script files, and that sort of stuff. And then we have the body section and this is where the actual contents of the document, the stuff that we see on the screen. This course where mostly going to focus on the body section and there is a lot of content that can go in there.
+          </p>
+        </div>
+      </article>
+    </div>
+    <div class="lesson">
+      <h2 id="lesson-2">2 Creating a Structured Document with HTML</h2>
+      <article class="video" id="lesson-2-1">
+        <div class="video-title">
+          <h3>2-1 Developer Tools</h3>
+        </div>
+        <div class="video-content">
+          <p>
+            Google chrome has "developer tools" that allows us to see and change the structure, elements and other features related to the HTML file opened at the browser.
+          </p>
+        </div>
+      </article>
+      <article class="video" id="lesson-2-2">
+        <div class="video-title">
+          <h3>2-2 Tree-like Structure</h3>
+        </div>
+        <div class="video-content">
+          <p>
+            The tree-like structure is also called DOM (Document Object Model). It refers to the branches generated by the nested divisions of HTML. Each division generates a branch that can have divisions (branches) inside and so on, resulting in a tree-like structure.
+          </p>
+        </div>
+      </article>
+      <article class="video" id="lesson-2-3">
+        <div class="video-title">
+          <h3>2-3 Indentations and Boxes</h3>
+        </div>
+        <div class="video-content">
+          <p>
+            The indentation makes the code more readable to human beings. It shall correspond to the "degree" of the tag. The html tag has no indentation. The level of indentation shows how many branches are at the tree-like structure conducting to the respective element.
+          </p>
+          <p>
+            The DOM and the HTML itself are ordinated graphically as boxes. The boxes correspond to the nested structure and are disposed conform the relation between structure, elements, classes and CSS code. Larger rectangles filled with smaller rectangles and so on.
+          </p>
+        </div>
+      </article>
+      <article class="video" id="lesson-2-4">
+        <div class="video-title">
+          <h3>2-4 Text Editors</h3>
+        </div>
+        <div class="video-content">
+          <p>
+            There are specific text editors to code. They are softwares that enable handle the code more easily in many ways.
+          </p>
+        </div>
+      </article>
+    </div>
+    <div class="lesson">
+      <h2 id="lesson-3">3 Strucured Documents and CSS Style</h2>
+      <article class="video" id="lesson-3-1">
+        <div class="video-title">
+          <h3>3-1 Strucured Documents</h3>
+        </div>
+        <div class="video-content">
+          <p>
+            Computer languages demand a logic made explicit by strict syntax constructions with grammar signs (semantics).
+          </p>
+          <p>
+            The code structure exists in computer languages as a necessary organization tool. The strict denotative learning capability of the computers demands divisors and markers; they enable the computer to understand the transitions and the syntax of the code.
+          </p>
+          <p>
+            A structured HTML document is a document that uses inline and block elements, classes and ids to create an structure capable of show to browsers differentiations and padronization to be adopted at each element of the page.
+          </p>
+          <p>
+            It's best to use semantic elements, so the browser will be able to know the function of each element at the page. In that way, we enable the browser to identify the function of each element of the page, generating a behavior coherent with the HTML code. More than that, a structured document with semantic elements makes viable all sort of automatic handling of the content, including the full power use of Artificial Intelligence.
+          </p>
+        </div>
+      </article>
+      <article class="video" id="lesson-3-2">
+        <div class="video-title">
+          <h3>3-2 CSS - Cascading Style Sheets</h3>
+        </div>
+        <div class="video-content">
+          <p>
+            CSS, Cascading Style Sheets, is a separate language for adding styles to our documents, establishing how the page will be displayed. HTML and CSS separation exists to simplify the web pages. With that separation, we can change the style of web pages without change the HTML code.
+          </p>
+          <p>
+            We can have several CSS files or sheets that will be referenced in HTML and all of them will be used to find out the final and visible style for our page.
+          </p>
+          <p>
+            CSS uses the elements, classes and ids to correlate with HTML code. It will apply the more specific style, since the cascading feature of CSS is guided by the specificity principle. In other words: the most specific rule is applied to every element.
+          </p>
+          <p>
+            To supply rules where there is none, CSS uses the inheritance feature. This feature will apply some ancestor element rules to its descendants at cases established a priori.
+          </p>
+          <nav>
+            <p>
+              <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">Wikipidea's article</a> says that: <em>In general, descendant elements inherit text-related properties, but box-related properties are not inherited. Properties that can be inherited are color, font, letter-spacing, line-height, list-style, text-align, text-indent, text-transform, visibility, white-space and word-spacing. Properties that cannot be inherited are background, border, display, float and clear, height and width, margin, min- and max-height and -width, outline, overflow, padding, position, text-decoration, vertical-align and z-index.</em>
+            </p>
+          </nav>
+        </div>
+      </article>
+      <article class="video" id="lesson-3-3">
+        <div class="video-title">
+          <h3>3-3 Avoiding Repetition</h3>
+        </div>
+        <div class="video-content">
+          <p>
+            All softwares occupy space. Avoiding repetition we save space.
+          </p>
+          <p>
+            All softwares need to be processed. Avoiding repetition we simplify the program, using less processing power.
+          </p>
+          <p>
+            A structured code without unnecessary repetitions and with the correspondent indentation is more readable by humans, it's clearer and easier to understand, evolve and debug.
+          </p>
+          <p>
+            The semantic structure of HTML and the correct use of ids and classes (repeating the semantic function or class of elements of the same nature or for which we want the same formatting) enables the CSS code to avoid unnecessary repetitions.
+          </p>
+          <p>
+            The fact that certain properties are inherited from other elements avoids the need for a specific formatting code, if inherited format is already optimal.
+          </p>
+        </div>
+      </article>
+      <article class="video" id="lesson-3-4">
+        <div class="video-title">
+          <h3>3-4 HTML and CSS Validation</h3>
+        </div>
+        <nav class="video-content">
+          <p>
+            HTML code can be validated at <a href="http://validator.w3.org">W3C validator</a>.
+          </p>
+          <p>
+            CSS also can be validated at <a href="http://jigsaw.w3.org/css-validator/">W3C validator</a>.
+          </p>
+          <p>
+            The CSS W3C validator provides a seal, as shown below.
+          <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+              <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="CSS válido!" />
+            </a>
+          </p>
+        </nav>
+      </article>
+    </div>
+  </body>
+</html>
